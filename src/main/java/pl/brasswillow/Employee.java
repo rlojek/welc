@@ -35,4 +35,13 @@ public class Employee {
     public double getBonus() {
         return bonus;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+            "workYears=" + workYears +
+            ", position='" + position + '\'' +
+            ", shouldHaveBonus=" + shouldHaveBonus +
+            '}';
+    }
 }
